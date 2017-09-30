@@ -1,0 +1,16 @@
+<resources>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="user_name">Nombre de Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Iniciar Sesión</string>
+
+    <string name="empty_error">Este campo no puede estar vacio</string>
+    <string name="wron_format">Formato Incorrecto</string>
+
+    <string name="no_internet">Sin Conexión</string>
+    <string name="retry">Reintentar</string>
+</resources>

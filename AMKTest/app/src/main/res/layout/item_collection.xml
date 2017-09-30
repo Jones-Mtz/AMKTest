@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp">
+
+        <ImageView
+            android:id="@+id/iv_collection_cover"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:adjustViewBounds="true"
+            android:background="@android:color/black"
+            android:scaleType="fitXY" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_weight="0.92"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_collection_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:gravity="center_horizontal"
+            android:text="Artist"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/tv_collection_album"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:gravity="center_horizontal"
+            android:text="album"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_collection_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:gravity="center_horizontal"
+            android:text="date"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_collection_trackCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:gravity="center_horizontal"
+            android:text="numero"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_collection_country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:gravity="center_horizontal"
+            android:text="lol"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_collection_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:gravity="center_horizontal"
+            android:text="lol"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tv_collection_song_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:gravity="center_horizontal"
+            android:text="Precio por canción: "
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_collection_album_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:gravity="center_horizontal"
+            android:text="Precio: "
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_collection_available"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:gravity="center_horizontal"
+            android:text="lol"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
